@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 
 h1 {
@@ -36,6 +36,7 @@ footer {
 .section-titles {
   display: flex;
   justify-content: space-evenly;
+  padding: 0 0 10px 0;
   font-size: 18px;
   font-weight: 500px;
 }
@@ -63,10 +64,14 @@ footer {
   margin: 0 auto;
   border: 2px solid #669;
   background: white;
-  font-size: 24px;
+  font-size: 18px;
   border-radius: 6px;
-  padding: 10px 15px;
+  padding: 8px 10px;
   transition: all 150ms ease-in-out;
+}
+
+.vgb a {
+  text-decoration: none;
 }
 
 .vgb:hover {
@@ -76,5 +81,6 @@ footer {
 }
 
 .name {
-  color: white;
+  color: rgb(66, 66, 109);
+  text-decoration: none;
 }
